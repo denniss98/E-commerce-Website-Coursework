@@ -1,0 +1,43 @@
+/* #region General */
+.container-fluid {
+    max-width: 1200px;
+}
+/* #endregion */
+
+/* #region Navbar */
+#cmsnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+
+}
+
+#navlist {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+/* #endregion */
+
+/* #region Product List */
+table, th, td {
+    border: 1px solid black;
+}
+/* #endregion */
+

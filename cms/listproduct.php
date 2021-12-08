@@ -1,0 +1,87 @@
+<?php
+  // Imports the navigation bar and sets the page name
+  include('../cms/common.php');
+  outputHeader("Home");
+  outputNav();
+?>
+
+<!-- Table of phones and their details -->
+<div class="row justify-content-center py-0">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Image</th> 
+            <th>Name</th>
+            <th>Description</th>
+            <th>Width</th> 
+            <th>Height</th>
+            <th>Price</th> 
+            <th>Stock Count</th>
+        </tr>
+        <tr>
+            <td>sdf8csd789cfv78xcv7xc</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>89s0dcvx089xc890vxc8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>c9xv8b08x90cv890sdfs</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>sdv9089s80dv890cx89f</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>cvxbhughui213hjbgvbjb</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>zxc908890sa890d890asc</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+	
+<?php
+	//Outputs the footer and closing tags
+	outputClosing();
+?>
